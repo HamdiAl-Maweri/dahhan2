@@ -1,0 +1,37 @@
+
+.continer{
+    position:relative;
+    left:40%;
+    width:20%;
+    border: black solid 1px;
+    border-radius: 7px;
+
+}
+.clac{
+    
+    background-color: rgb(165, 192, 192);
+    padding: 3%;
+
+}
+.screen{
+    background-color: rgb(150, 167, 167);
+
+    width: 97%;
+    height: 40px;
+    font-size: larger;
+
+}
+.btn{
+    background-color: rgb(150, 167, 167);
+
+    width: 20%;
+    height: 40px;
+    margin: 2%;
+}
+.num_btn{
+    width: 100%;
+    margin: 20px 0 15px 0;
+    
+
+}
+

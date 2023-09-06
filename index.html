@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="continer">
+        <div class="clac">
+            <input readonly type="text" class="screen" id="screen1" value="" >
+            <input readonly type="text" class="screen" id="screen2" value="" >
+            <div class="num_btn">
+                <button onclick="get_char(this)" class="btn" id="btn1">1</button>
+                <button onclick="get_char(this)" class="btn" id="btn2">2</button>
+                <button onclick="get_char(this)" class="btn" id="btn3">3</button>
+                <button onclick="get_char(this)" class="btn" id="btn*">*</button>
+                <button onclick="get_char(this)" class="btn" id="btn4">4</button>
+                <button onclick="get_char(this)" class="btn" id="btn5">5</button>
+                <button onclick="get_char(this)" class="btn" id="btn6">6</button>
+                <button onclick="get_char(this)" class="btn" id="btn/">/</button>
+                <button onclick="get_char(this)" class="btn" id="btn7">7</button>
+                <button onclick="get_char(this)" class="btn" id="btn8">8</button>
+                <button onclick="get_char(this)" class="btn" id="btn9">9</button>
+                <button onclick="get_char(this)" class="btn" id="btn+">+</button>
+                <button onclick="clear_screen()" class="btn" id="btn_clear">clear</button>
+                <button onclick="get_char(this)" class="btn" id="btn0">0</button>
+                <button onclick="set_result()" class="btn" id="btn=">=</button>
+                <button onclick="get_char(this)" class="btn" id="btn-">-</button>
+            </div>
+        </div>
+    </div>
+    <script src="actions.js"></script>
+</body>
+</html>
